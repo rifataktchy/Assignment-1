@@ -48,7 +48,6 @@ body{
     line-height: 26px;
 }
 .btn-container1{
-    position: static;
     width: 160px;
     height: 24px;
     display: flex;
@@ -64,17 +63,19 @@ body{
     font-weight: 400;
     cursor: pointer;
 }
+.linking{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 /* main section style starts here */
 #first-section{
     width: 100%;
-height: 1395px;
-border: 2px solid red;
+    height: 1390px;
 }
 .holder{
     width: 80%;
     height: 1300px;
     margin: 50px auto;
-    border: 2px solid red;
     text-align: center;
     color: rgb(13, 19, 33);
 }
@@ -90,16 +91,11 @@ border: 2px solid red;
     line-height: 26px;
 }
 .second-part{
-    border: 2px solid red;
-   
-height: 336px;
-padding: 40px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-
-
-
+    height: 30%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .word-container{
     width:50%;
@@ -108,16 +104,14 @@ justify-content: space-between;
 }
 .word-container h1{
     color: rgba(13, 19, 33, 0.7);
-font-size: 24px;
-font-weight: 700;
-line-height: 36px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
 }
 .word-container p{
-    color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 .btn-container2{
     width: 150px;
@@ -134,5 +128,4 @@ line-height: 26px;
 }
 .pic-container{
     width:30%;
-
 }
