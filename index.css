@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    font-family: "Roboto", sans-serif;
+}
+/* header section style starts here */
+.banner-container{
+    width: 100%;
+    height: 652px;
+    margin-top: 50px;
+    background-image: url(assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    width: 70%;
+    height: 582px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image-container{
+   margin-bottom: 30px;
+}
+.text-container{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin: 0 auto;
+} 
+.text-container h1{
+    padding: 3px 30px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+}
+.text-container p{
+    padding: 3px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.btn-container1{
+    position: static;
+    width: 160px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    margin: 20px auto;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+/* main section style starts here */
+#first-section{
+    width: 100%;
+height: 1395px;
+border: 2px solid red;
+}
+.holder{
+    width: 80%;
+    height: 1300px;
+    margin: 50px auto;
+    border: 2px solid red;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+.first-part h1{
+    padding: 50px 0 10px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.first-part p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.second-part{
+    border: 2px solid red;
+   
+height: 336px;
+padding: 40px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+
+}
+.word-container{
+    width:50%;
+    height: 80%;
+    text-align: left;
+}
+.word-container h1{
+    color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+}
+.word-container p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+
+}
+.btn-container2{
+    width: 150px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    cursor: pointer;
+}
+.pic-container{
+    width:30%;
+
+}
